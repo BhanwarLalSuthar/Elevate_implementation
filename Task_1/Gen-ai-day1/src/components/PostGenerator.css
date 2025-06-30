@@ -1,0 +1,42 @@
+.post-generator-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+.post-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.post-form input, .post-form select {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.post-form button {
+  padding: 8px 18px;
+  background: #0077b5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.post-form button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.output-card {
+  background: #f4f8fb;
+  border-left: 4px solid #0077b5;
+  padding: 18px 16px;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  word-break: break-word;
+}
